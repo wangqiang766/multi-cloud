@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
+    <modules>
+        <module>multi-config</module>
+        <module>multi-zuul</module>
+        <module>multi-sleuth</module>
+        <module>multi-modules</module>
+        <module>multi-eureka-a</module>
+        <module>multi-eureka-b</module>
+        <module>multi-hystrix-dashbord</module>
+    </modules>
+    <groupId>com.wq</groupId>
+    <artifactId>multi-cloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>multi-cloud</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Greenwich.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-eureka-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-eureka-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-hystrix-dashbord" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-modules/multi-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-modules/multi-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multi-zuul" charset="UTF-8" />
+  </component>
+</project>
