@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/multi-cloud.iml" filepath="$PROJECT_DIR$/multi-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-modules/multi-common/multi-common.iml" filepath="$PROJECT_DIR$/multi-modules/multi-common/multi-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-config/multi-config.iml" filepath="$PROJECT_DIR$/multi-config/multi-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-eureka-a/multi-eureka-a.iml" filepath="$PROJECT_DIR$/multi-eureka-a/multi-eureka-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-eureka-b/multi-eureka-b.iml" filepath="$PROJECT_DIR$/multi-eureka-b/multi-eureka-b.iml" />

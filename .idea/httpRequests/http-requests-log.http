@@ -1,0 +1,32 @@
+POST http://localhost:1320/user/insertInfos
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-31T122838.500.json
+
+###
+
+POST http://localhost:1320/user/insertInfos
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-31T122630.500.json
+
+###
+
+POST http://localhost:1320/user/insertInfos
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-31T122437.500.json
+
+###
+
+POST http://localhost:1320/user/insertInfos
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-31T122240.200.json
+
+###
+

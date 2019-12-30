@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="multi-common" />
         <module name="multi-config" />
         <module name="multi-eureka-a" />
         <module name="multi-eureka-b" />
@@ -20,6 +21,7 @@
       <module name="eureka-a" target="1.8" />
       <module name="eureka-b" target="1.8" />
       <module name="multi-cloud" target="1.8" />
+      <module name="multi-common" target="1.8" />
       <module name="multi-config" target="1.8" />
       <module name="multi-eureka-a" target="1.8" />
       <module name="multi-eureka-b" target="1.8" />
@@ -36,6 +38,7 @@
       <module name="eureka-a" options="-parameters" />
       <module name="eureka-b" options="-parameters" />
       <module name="multi-cloud" options="-parameters" />
+      <module name="multi-common" options="-parameters" />
       <module name="multi-config" options="-parameters" />
       <module name="multi-eureka-a" options="-parameters" />
       <module name="multi-eureka-b" options="-parameters" />
