@@ -19,7 +19,7 @@
     </modules>
     <properties>
         <java.version>1.8</java.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.12</junit.version>
         <mybatis-spring-boot.version>2.0.1</mybatis-spring-boot.version>
         <alibaba-druid.version>1.1.9</alibaba-druid.version>
         <swagger.version>2.9.2</swagger.version>
@@ -35,6 +35,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
