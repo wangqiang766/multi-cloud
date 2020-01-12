@@ -1,24 +1,22 @@
 package com.wq.multiuser;
 
+import com.wq.multiuser.event.OrderEvent;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.HashMap;
-import java.util.Map;
-
-//@SpringBootTest(classes = MultiUserApplication.class)
-//@RunWith(SpringRunner.class)
+@SpringBootTest(classes = MultiUserApplication.class)
+@RunWith(SpringRunner.class)
 public class MultiUserApplicationTests {
+    @Autowired
+    private ApplicationContext applicationContext;
     @Test
     public void test(){
-        Runnable runnable= new TestThread1();
-        Thread thread1= new Thread(runnable);
-        Thread thread2= new TestThread2();
-        thread1.start();
-        thread2.start();
+        OrderEvent orderEvent =new OrderEvent(this,"用户下单成功");
+        applicationContext.publishEvent(orderEvent);
+        System.out.println(".........over.........");
     }
 
 }

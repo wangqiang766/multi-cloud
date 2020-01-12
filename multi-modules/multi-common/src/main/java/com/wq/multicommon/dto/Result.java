@@ -22,6 +22,7 @@ public class Result<T> {
         this.data = data;
     }
 
+
     public static Result success(){
         return new Result(SUCCESS,"请求成功",null);
     }
