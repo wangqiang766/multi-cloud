@@ -1,3 +1,99 @@
+POST http://localhost:1320/demo/applyCourse?courseName=java
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-12T042509.200.json
+
+###
+
+POST http://localhost:1320/demo/applyCourse?courseName=java
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-12T041347.200.json
+
+###
+
+POST http://localhost:1320/demo/applyCourse?courseName=java
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-12T040135.200.json
+
+###
+
+GET http://localhost:1320/user/testBean
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T060652.200.json
+
+###
+
+GET http://localhost:1320/user/testBean
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T060508.200.json
+
+###
+
+GET http://localhost:1320/user/testBean
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T060130.200.json
+
+###
+
+GET http://localhost:1320/user/testBean
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T055915.200.json
+
+###
+
+GET https://gp726cgms8.execute-api.us-east-1.amazonaws.com/avc/catalog
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T053218.401.json
+
+###
+
+GET http://localhost:1320/user/testReadProps
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-04T013949.200.json
+
+###
+
+GET http://localhost:1320/user/testReadProps
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-01-09T084826.200.json
+
+###
+
+GET http://localhost:1320/user/testReadProps
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-01-09T045651.200.json
+
+###
+
+GET http://localhost:1320/user/testReadProps
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-01-09T045538.200.json
+
+###
+
 POST http://localhost:1320/user/insertInfos
 Accept: */*
 Cache-Control: no-cache

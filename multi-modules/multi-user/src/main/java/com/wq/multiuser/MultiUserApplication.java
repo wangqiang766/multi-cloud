@@ -1,5 +1,6 @@
 package com.wq.multiuser;
 
+import org.apache.catalina.core.ApplicationContext;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

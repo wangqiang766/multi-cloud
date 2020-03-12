@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -37,16 +38,16 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-a" options="-parameters" />
       <module name="eureka-b" options="-parameters" />
-      <module name="multi-cloud" options="-parameters" />
-      <module name="multi-common" options="-parameters" />
+      <module name="multi-cloud" options="" />
+      <module name="multi-common" options="" />
       <module name="multi-config" options="-parameters" />
       <module name="multi-eureka-a" options="-parameters" />
       <module name="multi-eureka-b" options="-parameters" />
       <module name="multi-hystrix-dashbord" options="-parameters" />
       <module name="multi-modules" options="" />
-      <module name="multi-order" options="-parameters" />
+      <module name="multi-order" options="" />
       <module name="multi-sleuth" options="-parameters" />
-      <module name="multi-user" options="-parameters" />
+      <module name="multi-user" options="" />
       <module name="multi-zuul" options="-parameters" />
     </option>
   </component>

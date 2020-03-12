@@ -8,10 +8,6 @@
       <configuration>
         <webroots />
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/../multi-eureka-a/src/main/java" />
-          <root url="file://$MODULE_DIR$/../multi-eureka-a/src/main/resources" />
-          <root url="file://$MODULE_DIR$/../multi-eureka-b/src/main/java" />
-          <root url="file://$MODULE_DIR$/../multi-eureka-b/src/main/resources" />
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
