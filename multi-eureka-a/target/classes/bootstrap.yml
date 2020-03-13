@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: multi-eureka-server-a
+  cloud:
+    config:
+      uri:  http://47.91.250.171:1300
+      profile: pro
+      enabled: true
