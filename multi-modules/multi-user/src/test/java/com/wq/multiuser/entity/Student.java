@@ -1,4 +1,4 @@
-package com.wq.multiuser;
+package com.wq.multiuser.entity;
 
 import lombok.Builder;
 import lombok.Data;

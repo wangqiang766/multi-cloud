@@ -1,15 +1,14 @@
-package com.wq.multiuser;
+package com.wq.multiuser.test;
 
-import org.assertj.core.util.Arrays;
+import com.wq.multiuser.service.*;
+import com.wq.multiuser.entity.Person;
+import com.wq.multiuser.service.impl.LogUtilService;
 import org.junit.Test;
+import sun.misc.ProxyGenerator;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class DemoTest {
@@ -66,5 +65,30 @@ public class DemoTest {
         System.out.println(lazyInnerClassSingleton1);
         System.out.println(lazyInnerClassSingleton==lazyInnerClassSingleton1);
     }
+    @Test
+    public void testEnum(){
+        System.out.println(EnumSingleton.RED);
+        System.out.println(EnumSingleton.RED.getName());
+        System.out.println(EnumSingleton.RED.getIndex());
+    }
 
+    @Test
+    public void testStaticProxy(){
+        ProxyUtilService proxyUtilService=new ProxyUtilService(new LogUtilService());
+        proxyUtilService.doString();
+    }
+
+    @Test
+    public void testJdkProxy(){
+        UtilService jdkProxyUtilService= (UtilService) new JdkProxyService().getInstance(new LogUtilService());
+        jdkProxyUtilService.doString();
+        byte[] bytes= ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{UtilService.class});
+        try {
+            FileOutputStream os=new FileOutputStream("E://$Proxy0.class");
+            os.write(bytes);
+            os.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

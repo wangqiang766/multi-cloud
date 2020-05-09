@@ -1,4 +1,4 @@
-package com.wq.multiuser;
+package com.wq.multiuser.test;
 
 public class JucTest {
     private static final long count = 10000l;

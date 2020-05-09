@@ -1,4 +1,4 @@
-package com.wq.multiuser;
+package com.wq.multiuser.test;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

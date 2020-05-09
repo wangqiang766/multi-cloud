@@ -1,4 +1,4 @@
-package com.wq.multiuser;
+package com.wq.multiuser.service;
 
 import java.io.Serializable;
 
