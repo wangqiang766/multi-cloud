@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import jdk.nashorn.internal.objects.annotations.Getter;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +22,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
+@TableName("user")
 public class User implements Serializable {
 
     private static final long serialVersionUID=1L;

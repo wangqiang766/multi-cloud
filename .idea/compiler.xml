@@ -40,15 +40,15 @@
       <module name="eureka-b" options="-parameters" />
       <module name="multi-cloud" options="" />
       <module name="multi-common" options="" />
-      <module name="multi-config" options="-parameters" />
-      <module name="multi-eureka-a" options="-parameters" />
-      <module name="multi-eureka-b" options="-parameters" />
-      <module name="multi-hystrix-dashbord" options="-parameters" />
+      <module name="multi-config" options="" />
+      <module name="multi-eureka-a" options="" />
+      <module name="multi-eureka-b" options="" />
+      <module name="multi-hystrix-dashbord" options="" />
       <module name="multi-modules" options="" />
       <module name="multi-order" options="" />
-      <module name="multi-sleuth" options="-parameters" />
+      <module name="multi-sleuth" options="" />
       <module name="multi-user" options="" />
-      <module name="multi-zuul" options="-parameters" />
+      <module name="multi-zuul" options="" />
     </option>
   </component>
 </project>

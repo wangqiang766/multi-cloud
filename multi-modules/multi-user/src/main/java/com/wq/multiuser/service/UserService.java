@@ -12,5 +12,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2019-12-30
  */
 public interface UserService extends IService<User> {
+    User queryUserInfo(String userName);
 
+    String queryUserAge(String userName);
 }
