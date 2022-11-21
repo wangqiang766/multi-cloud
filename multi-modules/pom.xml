@@ -24,7 +24,7 @@
         <alibaba-druid.version>1.1.9</alibaba-druid.version>
         <swagger.version>2.9.2</swagger.version>
         <alibaba-fastjson.version>1.2.58</alibaba-fastjson.version>
-        <xxl-job.version>1.9.0</xxl-job.version>
+        <xxl-job.version>2.3.1</xxl-job.version>
     </properties>
 
     <dependencies>
